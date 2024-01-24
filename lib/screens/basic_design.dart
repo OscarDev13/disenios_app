@@ -10,18 +10,18 @@ class BasicDesignScreen extends StatelessWidget {
       body: Column(
         children: [
           // Imagen
-          Image(image: AssetImage('assets/landscape.png')),
+          const Image(image: AssetImage('assets/landscape.png')),
           
           // Titulo
-          Title(),
+          const Title(),
 
           //Button section
-          ButtonSection(),
+          const ButtonSection(),
 
           // Description
           Container(
-            margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-            child: Text('Dolore reprehenderit fugiat ullamco velit deserunt eiusmod fugiat reprehenderit aliqua amet do ipsum. Dolore tempor id officia excepteur. Dolore aliqua id pariatur exercitation elit eiusmod. Id quis elit consectetur velit qui enim tempor.Lorem non ex qui ullamco fugiat qui voluptate exercitation velit laborum do non. Nulla aliquip anim excepteur cupidatat. Exercitation nostrud occaecat amet proident ad non sit consequat tempor. Nostrud officia duis incididunt irure quis aliquip.')
+            margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+            child:  const Text('Dolore reprehenderit fugiat ullamco velit deserunt eiusmod fugiat reprehenderit aliqua amet do ipsum. Dolore tempor id officia excepteur. Dolore aliqua id pariatur exercitation elit eiusmod. Id quis elit consectetur velit qui enim tempor.Lorem non ex qui ullamco fugiat qui voluptate exercitation velit laborum do non. Nulla aliquip anim excepteur cupidatat. Exercitation nostrud occaecat amet proident ad non sit consequat tempor. Nostrud officia duis incididunt irure quis aliquip.')
           )
         ],
       ),
