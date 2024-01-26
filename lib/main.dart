@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
+      theme: ThemeData.dark(), // Cuando se aplica el modo oscuro en la app se aplica un fondo entre negro y gris
       // home: ,
       initialRoute: 'home_screen',
       routes: {
